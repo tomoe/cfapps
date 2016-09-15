@@ -1,0 +1,7 @@
+---
+applications:
+  - name: tomoe-spring
+    path: target/tomoe-spring-0.0.1-SNAPSHOT.jar
+    buildpack: java_buildpack_offline
+    env:
+      MY_VARIABLE: IKA
